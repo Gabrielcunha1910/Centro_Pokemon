@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabriel.ctavares2\\Documents\\Centro_Pokemon\\Centro_Pokemon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8BF728C-0DD7-4E0B-A1B0-AA21FA935033}|Centro_Pokemon\\Centro_Pokemon.csproj|c:\\users\\gabriel.ctavares2\\documents\\centro_pokemon\\centro_pokemon\\centro_pokemon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8BF728C-0DD7-4E0B-A1B0-AA21FA935033}|Centro_Pokemon\\Centro_Pokemon.csproj|solutionrelative:centro_pokemon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel.ctavares2\\Documents\\Centro_Pokemon\\Centro_Pokemon\\Centro_Pokemon\\Program.cs",
+              "RelativeDocumentMoniker": "Centro_Pokemon\\Program.cs",
+              "ToolTip": "C:\\Users\\gabriel.ctavares2\\Documents\\Centro_Pokemon\\Centro_Pokemon\\Centro_Pokemon\\Program.cs*",
+              "RelativeToolTip": "Centro_Pokemon\\Program.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T11:30:49.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

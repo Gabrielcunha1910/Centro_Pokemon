@@ -1,0 +1,7 @@
+C:\Users\gabriel.ctavares2\Documents\Centro_Pokemon\Centro_Pokemon\Centro_Pokemon\bin\Debug\Centro_Pokemon.exe.config
+C:\Users\gabriel.ctavares2\Documents\Centro_Pokemon\Centro_Pokemon\Centro_Pokemon\bin\Debug\Centro_Pokemon.exe
+C:\Users\gabriel.ctavares2\Documents\Centro_Pokemon\Centro_Pokemon\Centro_Pokemon\bin\Debug\Centro_Pokemon.pdb
+C:\Users\gabriel.ctavares2\Documents\Centro_Pokemon\Centro_Pokemon\Centro_Pokemon\obj\Debug\Centro_Pokemon.csproj.AssemblyReference.cache
+C:\Users\gabriel.ctavares2\Documents\Centro_Pokemon\Centro_Pokemon\Centro_Pokemon\obj\Debug\Centro_Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.ctavares2\Documents\Centro_Pokemon\Centro_Pokemon\Centro_Pokemon\obj\Debug\Centro_Pokemon.exe
+C:\Users\gabriel.ctavares2\Documents\Centro_Pokemon\Centro_Pokemon\Centro_Pokemon\obj\Debug\Centro_Pokemon.pdb
