@@ -4,6 +4,7 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Centro_Pokemon
@@ -41,17 +42,20 @@ namespace Centro_Pokemon
 
                 Console.WriteLine("\n 4 - Sair");
                 Console.ResetColor();
-
-                opcao = int.Parse(Console.ReadLine());
+                Console.ForegroundColor= ConsoleColor.White;
+                Console.Write("\n Escolha uma opção: ");
+                Console.ResetColor();
+                opcao = int.Parse(Console.ReadLine());  
 
                 switch (opcao) // Estrutura de controle de fluxo para lidar com as opções do menu
                 {
                     case 1: // Se o usuário escolher a opção 1, chama o método para cadastrar um Pokémon
-
+                        cadastroPokemon(); // abre a funçao
                         break; // Encerra o programa
 
 
                     case 2:
+                      
                         break;
 
 
@@ -75,11 +79,65 @@ namespace Centro_Pokemon
                         break; // Encerra o programa
                 }
             }
-
-
-
-
-
         }
+
+            static void cadastroPokemon() // Método para cadastrar um Pokémon
+            {
+                Console.Clear();
+                Console.WriteLine(@"
+░█████╗░░█████╗░██████╗░░█████╗░░██████╗████████╗██████╗░░█████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔══██╗
+██║░░╚═╝███████║██║░░██║███████║╚█████╗░░░░██║░░░██████╔╝██║░░██║
+██║░░██╗██╔══██║██║░░██║██╔══██║░╚═══██╗░░░██║░░░██╔══██╗██║░░██║
+╚█████╔╝██║░░██║██████╔╝██║░░██║██████╔╝░░░██║░░░██║░░██║╚█████╔╝
+░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░\n");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
+            Console.Write("Digite o nome do Pokémon: ");
+                string nome = Console.ReadLine(); // armazena a variável "nome"
+
+            
+            Console.Write("Digite o tipo do Pokémon: ");
+                string tipo = Console.ReadLine();
+
+           
+            Console.Write("Digite a altura do Pokémon (em metros): ");
+                double altura = double.Parse(Console.ReadLine()); // Converte a entrada do usuário para um número decimal 
+
+           
+            Console.Write("Digite o peso do Pokémon (em kg): ");
+                double peso = double.Parse(Console.ReadLine());
+
+            // fraqueza do Pokémon
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Digite as fraquezas do Pokémon : ");
+            int qtdFraquezas = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= qtdFraquezas; i++)
+            { // Loop para ler as fraquezas do Pokémon, começando de 1 até a quantidade de fraquezas informada pelo usuário
+                Console.Write($"Fraqueza {i}: ");
+                string fraquezaPokemon = Console.ReadLine();
+            }
+
+
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Quantas Evoluções ele tem? : ");
+            int qtdEvolucao = int.Parse(Console.ReadLine());
+            
+            for (int i = 1; i <= qtdEvolucao; i++)
+            { // Loop para ler as fraquezas do Pokémon, começando de 1 até a quantidade de fraquezas informada pelo usuário
+                Console.Write($"Evolução: {i}: ");
+                string qtdpokemon = Console.ReadLine();
+            }
+            Console.ForegroundColor= ConsoleColor.Cyan;
+            Console.WriteLine("\n Pokémon cadastrado com sucesso!"); // Exibe uma mensagem de sucesso após o cadastro do Pokémon
+            Thread.Sleep(2000); // Aguarda 2 segundos para que o usuário possa ler a mensagem antes de limpar a tela e exibir o menu novamente
+            Console.ResetColor();
+
+            
+        }
+        
     }
 }
